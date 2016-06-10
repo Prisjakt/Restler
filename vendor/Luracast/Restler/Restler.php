@@ -667,13 +667,6 @@ class Restler extends EventEmitter
             $this->sendData($result);
         } catch (RestException $e) {
             $this->handleError($e->getCode(), $e->getMessage());
-        } catch (\Exception $e) {
-            $this->log[] = $e->getMessage();
-            if ($this->productionMode) {
-                $this->handleError(500);
-            } else {
-                $this->handleError(500, $e->getMessage());
-            }
         }
     }
 
