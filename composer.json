@@ -40,7 +40,7 @@
             "type":"vcs",
             "url":"https://github.com/zendframework/ZendAmf.git"
         }
-    },
+    ],
     "config":{
         "bin-dir":"bin/"
     },
