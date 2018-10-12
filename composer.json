@@ -1,5 +1,5 @@
 {
-    "name":"luracast/restler",
+    "name":"prisjakt/restler",
     "description":"Restler is a simple and effective multi-format Web API Server written in PHP.\nJust deal with your business logic in php, restler will take care of the REST!",
     "type":"library",
     "minimum-stability":"dev",
