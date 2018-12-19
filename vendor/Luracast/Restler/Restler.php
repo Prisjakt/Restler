@@ -627,7 +627,7 @@ class Restler extends EventEmitter
                                 //convert to instance of ValidationInfo
                                 $info = new ValidationInfo($param);
                                 $valid = Validator::validate(
-                                    $o->arguments[$index], $info);
+                                    $o->arguments[$index] ?? null, $info);
                                 $o->arguments[$index] = $valid;
                             }
                         }
